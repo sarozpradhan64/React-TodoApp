@@ -87,7 +87,7 @@ New Task {inputText}</p> */}
       <Todolist 
      filteredTodos ={filteredTodos}
       setTodos = {setTodos} todos={todos} />
-
+<p className="footer"> Built on React.js [srz]</p>
     </div>
   );
 }
