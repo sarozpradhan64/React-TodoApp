@@ -144,7 +144,9 @@ select {
   margin-top: 200px;
 }
 .todo-input{
-width: 200px
+width: 200px;
+Margin-left: 15px;
+
 }
 /* Transition */
 /*
