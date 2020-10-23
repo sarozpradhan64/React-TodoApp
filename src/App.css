@@ -143,6 +143,9 @@ select {
   margin-left: 15px;
   margin-top: 200px;
 }
+.todo-input{
+width: 200px
+}
 /* Transition */
 /*
 .select:hover::after {
