@@ -33,7 +33,7 @@ setStatus(e.target.value)
 }
         return(
             <form> 
-                <input value={inputText} onChange = {inputTextHandler}type ="text" className="todo-input" placeholder="New Task" />
+                <input value={inputText} onChange = {inputTextHandler}type ="text" className="todo-input" placeholder="Enter a New Task" />
                 <button onClick = {submitTodoHandler} className = "todo-button" type = "submit">
                 <i className = "fas fa-plus-square"> </i>
 
