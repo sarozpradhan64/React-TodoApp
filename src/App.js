@@ -69,7 +69,7 @@ function getLocalTodos()
   return (
     <div className="App">
       <header>
-  <div> My todo List <br/>
+  <div> My Todo List <br/>
   {/*   <p>
 New Task {inputText}</p> */} 
 </div>
