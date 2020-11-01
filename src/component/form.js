@@ -12,11 +12,16 @@ const inputTextHandler = (e) => {
 
 const submitTodoHandler = (e) => {
     e.preventDefault(); //to prevent browser reload while submmitting
+    if (inputText==""){
+        alert('PLEASE ENTER THE TASK!!!')
+    }
+   else{
     setTodos([
         ...todos, {
             text: inputText, completed: false, id: Math.random()*1000
         }
     ])
+   }
 
 setInputText(""); //reset the input after clicking add.
 
