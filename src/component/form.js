@@ -12,7 +12,7 @@ const inputTextHandler = (e) => {
 
 const submitTodoHandler = (e) => {
     e.preventDefault(); //to prevent browser reload while submmitting
-    if (inputText==""){
+    if (inputText===""){
         alert('PLEASE ENTER THE TASK!!!')
     }
    else{
